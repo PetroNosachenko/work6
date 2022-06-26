@@ -1,0 +1,32 @@
+@import 'variables.scss';
+hr {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(252, 249, 249, 0.5);
+    padding-top: 50px;
+}
+.page-news {
+    padding-bottom: 70px;
+}
+.time__news {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    padding: 6px 12px;
+    background-color: $btn-bg;
+    color: #fff;
+    border-radius: 5px;
+}
+.footer-news {
+    margin-top: 30px;
+}
+.about__title.title.new-format {
+   
+    @extend %ffElMessiri;
+}
+.time-new-format {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 50px;
+}
