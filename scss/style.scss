@@ -387,6 +387,7 @@ body {
     padding: 9px 15px;
     margin-top: 9px;
     color: $btn-bg;
+    border: 1px solid #fff;
     border-radius: $btn-border-radius;
     transition: all 0.3s linear 0s;
     background: $color-text;
@@ -394,6 +395,8 @@ body {
     &:hover {
         background: $btn-bg;
         color: $color-text;
+        border: 1px solid #fff;
+        border-radius: $btn-border-radius;
     }
 }
 .__maps {

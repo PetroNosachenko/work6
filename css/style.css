@@ -389,7 +389,7 @@ body {
 .about__content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  /* -ms-grid-columns: (1fr)[2]; */
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -522,6 +522,7 @@ body {
   padding: 9px 15px;
   margin-top: 9px;
   color: #018ABE;
+  border: 1px solid #fff;
   border-radius: 3px;
   -webkit-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
@@ -532,6 +533,8 @@ body {
 .location__btn-link:hover {
   background: #018ABE;
   color: #FFFFFF;
+  border: 1px solid #fff;
+  border-radius: 3px;
 }
 
 .__maps {
